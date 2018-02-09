@@ -50,7 +50,11 @@ nav:
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-
+# Home page 
+hero:
+  image: /public/img/tech-brain-blue.jpg
+  caption: Learn technology and enjoy it
+  
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-113789303-1' # leave blank if you don't want google analytics
