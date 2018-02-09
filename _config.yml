@@ -2,6 +2,7 @@
 title: IF's Tech Blog
 url: http://wyfunqie.github.io
 logo: '/public/logo.png'
+tagline: Tech is beautiful
 
 # Site configurations
 gems:
