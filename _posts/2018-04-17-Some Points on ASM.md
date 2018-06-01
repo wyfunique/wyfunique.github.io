@@ -1,4 +1,4 @@
-# Some Points on ASM#
+# Some Points on ASM
 
 ASM is an important tool for manipulating java bytecode. Here is a summary of typical problems when I was implementing a compiler using Java and ASM.
 
@@ -12,7 +12,7 @@ and your description in visitMethodInsn() is "(I)V", an InvocationTargetExceptio
 
 
 
-### 2. Bad type on operand stack###
+### 2. Bad type on operand stack
 
 Literally, this error means that operand's type is not what JVM expected. It will provide details about it like below:
 
@@ -31,7 +31,7 @@ The details tell you the type that JVM expected and the type you provided here. 
 
 
 
-###3. About type double###
+### 3. About type double
 
 Int, char,  boolean and float are all one or less than one word long, while double and long int are both 2 words long. One unit of stack in JVM is one word long, which means double and long int type will take 2 units in stack. As shown above in section 2, the stack contains 'double' and 'double_2nd' which are the first and second word of double type. 
 
@@ -49,7 +49,7 @@ So swap instruction will throw an error since JVM thought you wanted to swap the
 
 
 
-### 4. visitLocalVariable###
+### 4. visitLocalVariable
 
 Many novice are confused about usage of visitLocalVariable() in ASM. This method will declare scope of a local variable, that is, the scope starting from some label and ending at some label, where the two labels are passed as parameters into this method. 
 
@@ -83,7 +83,7 @@ Actually, that is the strategy Java uses to visit local variables during generat
 
 
 
-### 5. Some little tips###
+### 5. Some little tips
 
 5.1 Remember to put semi-colon ";" in the end of each description.
 
