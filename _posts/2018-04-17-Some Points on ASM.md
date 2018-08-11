@@ -1,3 +1,12 @@
+```
+---
+layout: post
+title: Some Points on ASM
+category: Compiler
+tags: [ASM] [Java]
+---
+```
+
 # Some Points on ASM
 
 ASM is an important tool for manipulating java bytecode. Here is a summary of typical problems when I was implementing a compiler using Java and ASM.
