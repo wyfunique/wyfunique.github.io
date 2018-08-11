@@ -1,11 +1,9 @@
-```
 ---
 layout: post
 title: Some Points on ASM
 category: Compiler
 tags: [ASM] [Java]
 ---
-```
 
 # Some Points on ASM
 
