@@ -7,9 +7,6 @@ tags:
 - Distributed Systems
 - Multi-processes
 ---
-
-
-
 ### 1. Returning values 
 
 **(1) Function**
