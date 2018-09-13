@@ -7,6 +7,7 @@ category:
 tags: 
 - Elixir
 - Multi-processes
+- Distributed Systems
 ---
 ### 1. Returning values 
 
