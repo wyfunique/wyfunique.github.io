@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Elixir Notes (1): Basic Issues
-category: 
-- Elixir
-- Distributed Systems
+category: Elixir
 tags: 
 - Elixir
+- Distributed Systems
 - Multi-processes
 ---
 
