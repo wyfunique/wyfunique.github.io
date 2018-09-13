@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Elixir Notes (1): Basic Issues
-category: Elixir
-tags: 
+title: Elixir Notes (1) -- Basic Issues
+category: 
 - Elixir
 - Distributed Systems
+tags: 
+- Elixir
 - Multi-processes
 ---
 ### 1. Returning values 
