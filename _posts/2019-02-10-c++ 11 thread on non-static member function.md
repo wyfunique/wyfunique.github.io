@@ -3,6 +3,8 @@ layout: post
 title: How to create a thread using non-static member function in c++ 11
 category: 
 - C++
+tags:
+- C++
 ---
 
 

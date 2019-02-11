@@ -3,6 +3,8 @@ layout: post
 title: Notes about C++ boost
 category: 
 - C++
+tags:
+- C++
 ---
 
 

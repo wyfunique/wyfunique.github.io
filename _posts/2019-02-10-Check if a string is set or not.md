@@ -3,6 +3,8 @@ layout: post
 title: How to check if a string is set in C++
 category: 
 - C++
+tags:
+- C++
 ---
 
 

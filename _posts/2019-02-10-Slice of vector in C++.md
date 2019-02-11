@@ -3,6 +3,8 @@ layout: post
 title: How to get sub-vector (slice) of a given vector
 category: 
 - C++
+tags:
+- C++
 ---
 
 

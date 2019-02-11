@@ -3,6 +3,8 @@ layout: post
 title: Notes about C++ static members of class
 category: 
 - C++
+tags:
+- C++
 ---
 
 

@@ -3,6 +3,8 @@ layout: post
 title: How to read the whole line with spaces from input stream
 category: 
 - C++
+tags:
+- C++
 ---
 
 
