@@ -1,15 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "LIDER: An Efficient High-dimensional Learned Index for Large-scale Dense Passage Retrieval."
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2022-10-08-lider
+excerpt: ''
+date: 2022-10-08
+venue: 'VLDB 2023'
+paperurl: 'https://arxiv.org/abs/2205.00970'
+citation: 'Yifan Wang, Haodi Ma, and Daisy Zhe Wang. " LIDER: An Efficient High-dimensional Learned Index for Large-scale Dense Passage Retrieval." arXiv preprint arXiv:2205.00970 (2022).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+\[VLDB 2023\] **Yifan Wang**, Haodi Ma, and Daisy Zhe Wang. " LIDER: An Efficient High-dimensional Learned Index for Large-scale Dense Passage Retrieval." 
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+This paper proposes LIDER, an efficient learned index for large-scale approximate k-nearest neighbor (ANN) search for dense passage retrieval. It outperforms FAISS (high-performance KNN library developed by Meta) on passage retrieval tasks. [PDF](https://arxiv.org/abs/2205.00970)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
