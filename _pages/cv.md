@@ -11,30 +11,38 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Doctor of Philosophy in Computer Science, University of Florida, 2019 - 2023
+* Master of Science in Computer Science, University of Florida, 2017 - 2019
+* Bachelor of Engineering in Electronics and Information Engineering, Huazhong University of Science and Technology, 2013 - 2017
+
+Research interests
+======
+* Database systems
+* Data analytic systems
+* Information retrieval
+
+Professional service
+======
+* Program Committee: CIKM 2022
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2021: Software Engineer Intern
+  * Amazon (Aurora Team)
+  * Duties included: Building a random SQL query generation tool using C++ to test Babelfish for Aurora PostgreSQL, the top project in AWS open source projects
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2018: Software Engineer Intern
+  * Oak Ridge National Laboratory
+  * Duties included: (1) Building an online monitoring system for large-scale 3D printers using C# and ASP.NET, jQuery and Bootstrap. (2) Optimizing circle packing algorithm module of large-scale 3D printing and made it 10 times faster.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* C/C++/C#
+* Python
+* Java, Scala
+* Spark
+* MySQL, PostgreSQL, SQLite
+* OpenMP
 
 Publications
 ======
@@ -54,6 +62,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
