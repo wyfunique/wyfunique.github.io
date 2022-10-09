@@ -1,0 +1,151 @@
+---
+title: 'Leetcode # 201-250'
+date: 2018-08-11
+permalink: /posts/2018/08/blog-1/
+tags:
+  - Algorithm
+  - Leetcode
+---
+
+## Leetcode # 201-250
+
+### 205. Isomorphic Strings
+
+**Description:**
+
+Given two strings **s** and **t**, determine if they are isomorphic.
+
+Two strings are isomorphic if the characters in **s** can be replaced to get **t**.
+
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.
+
+**Example 1:**
+
+```
+Input: s = "egg", t = "add"
+Output: true
+```
+
+**Example 2:**
+
+```
+Input: s = "foo", t = "bar"
+Output: false
+```
+
+**Example 3:**
+
+```
+Input: s = "paper", t = "title"
+Output: true
+```
+
+**Note:**
+You may assume both **s** and **t** have the same length.
+
+**Solution:**
+
+Maintain a dictionary to check if there are two same chars in one string corresponding to different chars in another string.
+
+**Code:**
+
+```python
+class Solution(object):
+    def isIsomorphic(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        def helper(s, t):
+            char_map = {}
+            for i in range(len(s)):
+                if s[i] not in char_map:
+                    char_map[s[i]] = t[i]
+                else:
+                    if char_map[s[i]] != t[i]:
+                        return False
+            return True
+        
+        return helper(s, t) and helper(t, s) # s=aa, t=ab or s=ab, t=aa are neither isomorphic.
+```
+
+**Note:**
+
+The helper function only checks the case that two same chars in s corresponding to different chars in t (like s="aa" and t="ab"). So we have to do it again for another case that maps from t to s (like s="ab" and t="aa").
+
+
+
+### 206. Reverse Linked List
+
+**Description:**
+
+Reverse a singly linked list.
+
+**Example:**
+
+```
+Input: 1->2->3->4->5->NULL
+Output: 5->4->3->2->1->NULL
+```
+
+**Follow up:**
+
+A linked list can be reversed either iteratively or recursively. Could you implement both?
+
+**Solution:**
+
+The main idea is to maintain 3 variables that record previous, current, and next nodes. Then we only need to make "current.next = previous" and move them by one node. Repeat this process until they move to the tail.
+
+In iterative way, this is done using 3 pointers, while in recursive way, this is done by passing them as parameters.
+
+**Code:**
+
+```python
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution(object):
+    def reverseList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        
+        # Iterative way -- 24 ms
+        if not head or not head.next:
+            return head
+        
+        prev = head
+        cur = head.next
+        _next = cur.next
+        head.next = None
+        while _next:
+            cur.next = prev
+            prev = cur
+            cur = _next
+            _next = _next.next
+        cur.next = prev
+        return cur
+        
+        '''
+        # Recursive way -- 32 ms
+        def helper(head, prev):
+            if not head.next:
+                head.next = prev
+                return head # return the last node before reversing, which is the first node after reversing
+            _next = head.next
+            head.next = prev
+            return helper(_next, head)
+        
+        if not head:
+            return None
+        return helper(head, None)
+        '''
+        
+        
+```
+
