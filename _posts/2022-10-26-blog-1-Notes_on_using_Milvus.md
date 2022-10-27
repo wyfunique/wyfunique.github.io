@@ -43,5 +43,5 @@ This is because the grpc also has size limit on the message. So it is better to 
 
 See these links for details:
 
-* [[Bug\]: err: rpc error: code = ResourceExhausted desc = grpc: received message larger than max (215849469 vs. 104857600) · Issue #18558 · milvus-io/milvus (github.com)](https://github.com/milvus-io/milvus/issues/18558)
+* [err: rpc error: code = ResourceExhausted desc = grpc: received message larger than max (215849469 vs. 104857600) · Issue #18558 · milvus-io/milvus (github.com)](https://github.com/milvus-io/milvus/issues/18558)
 
