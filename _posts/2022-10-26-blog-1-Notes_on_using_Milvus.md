@@ -6,7 +6,7 @@ tags:
   - Database
 ---
 
-**Milvus version: v2.1.x**
+Notes on using Milvus v2.1.x
 
 ### 0. Installing Milvus v2 via Docker: APT vs Docker-compose
 
