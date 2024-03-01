@@ -1,5 +1,5 @@
 ---
-title: "Teaching assistant for course ``Computer Networks'' in Spring 2023"
+title: "Teaching assistant for course “Computer Networks” in Spring 2023"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2023-spring-teaching-3
