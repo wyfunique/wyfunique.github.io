@@ -1,5 +1,5 @@
 ---
-title: "Teaching assistant for course ``Data Engineering'' in Spring 2024"
+title: "Teaching assistant for course “Data Engineering” in Spring 2024"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2024-spring-teaching-4
