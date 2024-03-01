@@ -11,22 +11,28 @@ redirect_from:
 
 Education
 ======
-* Doctor of Philosophy in Computer Science, University of Florida, 2019 - 2023
+* Doctor of Philosophy in Computer Science, University of Florida, 2019 - 2024
 * Master of Science in Computer Science, University of Florida, 2017 - 2019
 * Bachelor of Engineering in Electronics and Information Engineering, Huazhong University of Science and Technology, 2013 - 2017
 
 Research interests
 ======
 * Database systems
+* High-dimensional data management (e.g., vector database and vector search)
+* AI + DB
 * Data analytic systems
 * Information retrieval
 
 Professional service
 ======
-* Program Committee: CIKM 2022
+* Program Committee: CIKM 2022, VLDB 2025
 
 Work experience
 ======
+* Summer 2023: Research Intern
+  * Alibaba (DAMO Academy)
+  * Duties included: Working on PilotScope (github.com/alibaba/pilotscope), as well as conducting research on high-performance vector databases
+
 * Summer 2021: Software Engineer Intern
   * Amazon (Aurora Team)
   * Duties included: Building a random SQL query generation tool using C++ to test Babelfish for Aurora PostgreSQL, the top project in AWS open source projects
@@ -37,10 +43,12 @@ Work experience
   
 Skills
 ======
+* Parallel computing
+* Distributed computing
 * C/C++/C#
 * Python
 * Java, Scala
-* Spark
+* Apache Spark
 * MySQL, PostgreSQL, SQLite
 * OpenMP
 
