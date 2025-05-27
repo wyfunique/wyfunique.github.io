@@ -19,13 +19,12 @@ Research interests
 ======
 * Database systems
 * High-dimensional data management (e.g., vector database and vector search)
-* AI + DB
 * Data analytic systems
 * Information retrieval
 
 Professional service
 ======
-* Program Committee: CIKM 2022, VLDB 2025
+* Program Committee: CIKM 2022, VLDB 2025, VLDB 2026, ICDE 2026
 
 Work experience
 ======
